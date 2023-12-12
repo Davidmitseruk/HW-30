@@ -1,0 +1,28 @@
+.box{
+    margin: 300px;
+    width: 100px;
+    height: 100px;
+    animation-name: box;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: red;
+}
+@keyframes box{
+    25%{
+        background-color: red;
+        transform: translateY(200px);
+    }
+    50%{
+        background-color: blue;
+        transform: translateX(200px);
+    }
+    75%{
+        background-color: green;
+        transform: translateY(200px);
+    }
+    100%{
+        background-color: yellow;
+        transform: translateX(200px);
+    }
+}
